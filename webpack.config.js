@@ -9,7 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: '[name].bundle.js',
-    publicPath: "/webpack-template/"
+    // publicPath: "/webpack-template/"
   },
   module: {
     rules: [
