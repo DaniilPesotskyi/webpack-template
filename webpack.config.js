@@ -1,15 +1,15 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const posthtmlInclude = require('posthtml-include');
-const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     main: path.resolve(__dirname, './src/index.js'),
   },
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: '[name].bundle.js',
+    publicPath: "/webpack-template/"
   },
   module: {
     rules: [
@@ -59,6 +59,7 @@ module.exports = {
       filename: 'index.html',
     }),
   ],
+  
   devServer: {
     static: {
       directory: path.join(__dirname, 'src'),
