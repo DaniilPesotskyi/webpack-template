@@ -1,0 +1,58 @@
+.webpack-icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-top: 200px;
+}
+
+.template-title {
+    margin-bottom: 50px;
+
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.template-main-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.template-link {
+    padding: 5px 10px;
+
+    border-radius: 10px;
+    background-color: #000000;
+
+    font-size: 24px;
+    line-height: 1.5;
+    color: #ffffff;
+
+    transition: color 250ms, background-color 250ms;
+
+    &:hover {
+        background-color: #c4c4c4;
+        color: #000000;
+    }
+}
+
+.github-icon {
+}
+
+.secondary-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #999999;
+    text-align: center;
+}
