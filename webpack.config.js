@@ -18,10 +18,6 @@ module.exports = {
         use: ['html-loader', 'posthtml-loader']
       },
       {
-        test: /\.html$/,
-        use: ['posthtml-loader']
-      },
-      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
